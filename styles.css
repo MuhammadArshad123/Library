@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin:0 auto;
+    background-color: lightblue;
+}
+
+nav{
+    padding:10px;
+}
+
+.logo{
+    text-align:center;
+    color:black;
+    font-size:30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}
+
+.book-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.buttonspace{
+    text-align: center;
+    padding:10px;
+}
+
+.newBook{
+    background-color: lightgray;
+    padding:10px;
+    border:1px solid black;
+    border-radius:10px;
+    margin:auto;
+    cursor:pointer;
+}
